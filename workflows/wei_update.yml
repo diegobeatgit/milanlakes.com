@@ -1,0 +1,45 @@
+name: Weekend Escape Index — Weekly Update
+
+on:
+  schedule:
+    # Every Thursday at 06:00 UTC (07:00 CET / 08:00 CEST)
+    - cron: '0 6 * * 4'
+  workflow_dispatch:   # Allow manual trigger from GitHub UI
+
+jobs:
+  update-wei:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # Needed to commit JSON back to repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run WEI engine
+        run: python scripts/generate_wei_json.py
+        env:
+          # Optional: set to 'true' to force fallback (skip live weather fetch)
+          WEI_FORCE_FALLBACK: 'false'
+
+      - name: Run events updater
+        run: python scripts/update_events_json.py
+
+      - name: Run crowd/traffic updater
+        run: python scripts/update_historical_json.py
+
+      - name: Commit updated data files
+        run: |
+          git config user.name  "milanlakes-bot"
+          git config user.email "bot@milanlakes.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "chore: auto-update WEI + events data $(date -u +'%Y-%m-%d')"
+          git push

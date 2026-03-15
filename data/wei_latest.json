@@ -1,0 +1,297 @@
+{
+  "generated_at": "2026-03-15T21:13:47Z",
+  "weekend": "2026-03-21",
+  "source": "fallback",
+  "formula": "weather*0.30 + travel*0.20 + crowd*0.15 + events*0.15 + water*0.10 + social*0.10",
+  "month_index": 2,
+  "ranking": [
+    {
+      "id": "como",
+      "name": "Lake Como",
+      "name_it": "Lago di Como",
+      "rank": 1,
+      "travel_min": 40,
+      "distance_km": 48,
+      "score": 52,
+      "scores": {
+        "weather": 55,
+        "travel": 89,
+        "crowd": 56,
+        "events": 25,
+        "water": 24,
+        "social": 35
+      },
+      "labels": {
+        "weather": "good",
+        "travel": "excellent",
+        "crowd": "low",
+        "events": "poor",
+        "water": "poor"
+      }
+    },
+    {
+      "id": "pusiano",
+      "name": "Lake Pusiano",
+      "name_it": "Lago di Pusiano",
+      "rank": 2,
+      "travel_min": 35,
+      "distance_km": 42,
+      "score": 50,
+      "scores": {
+        "weather": 55,
+        "travel": 92,
+        "crowd": 64,
+        "events": 10,
+        "water": 21,
+        "social": 18
+      },
+      "labels": {
+        "weather": "good",
+        "travel": "excellent",
+        "crowd": "low",
+        "events": "poor",
+        "water": "poor"
+      }
+    },
+    {
+      "id": "maggiore",
+      "name": "Lake Maggiore",
+      "name_it": "Lago Maggiore",
+      "rank": 3,
+      "travel_min": 55,
+      "distance_km": 72,
+      "score": 49,
+      "scores": {
+        "weather": 53,
+        "travel": 78,
+        "crowd": 52,
+        "events": 30,
+        "water": 24,
+        "social": 32
+      },
+      "labels": {
+        "weather": "fair",
+        "travel": "excellent",
+        "crowd": "low",
+        "events": "poor",
+        "water": "poor"
+      }
+    },
+    {
+      "id": "monate",
+      "name": "Lake Monate",
+      "name_it": "Lago di Monate",
+      "rank": 4,
+      "travel_min": 50,
+      "distance_km": 58,
+      "score": 49,
+      "scores": {
+        "weather": 55,
+        "travel": 84,
+        "crowd": 71,
+        "events": 12,
+        "water": 21,
+        "social": 15
+      },
+      "labels": {
+        "weather": "good",
+        "travel": "excellent",
+        "crowd": "low",
+        "events": "poor",
+        "water": "poor"
+      }
+    },
+    {
+      "id": "segrino",
+      "name": "Lake Segrino",
+      "name_it": "Lago di Segrino",
+      "rank": 5,
+      "travel_min": 40,
+      "distance_km": 45,
+      "score": 49,
+      "scores": {
+        "weather": 55,
+        "travel": 89,
+        "crowd": 65,
+        "events": 8,
+        "water": 21,
+        "social": 14
+      },
+      "labels": {
+        "weather": "good",
+        "travel": "excellent",
+        "crowd": "low",
+        "events": "poor",
+        "water": "poor"
+      }
+    },
+    {
+      "id": "annone",
+      "name": "Lake Annone",
+      "name_it": "Lago di Annone",
+      "rank": 6,
+      "travel_min": 42,
+      "distance_km": 48,
+      "score": 49,
+      "scores": {
+        "weather": 55,
+        "travel": 89,
+        "crowd": 69,
+        "events": 8,
+        "water": 21,
+        "social": 12
+      },
+      "labels": {
+        "weather": "good",
+        "travel": "excellent",
+        "crowd": "low",
+        "events": "poor",
+        "water": "poor"
+      }
+    },
+    {
+      "id": "alserio",
+      "name": "Lake Alserio",
+      "name_it": "Lago di Alserio",
+      "rank": 7,
+      "travel_min": 38,
+      "distance_km": 43,
+      "score": 49,
+      "scores": {
+        "weather": 55,
+        "travel": 92,
+        "crowd": 71,
+        "events": 6,
+        "water": 18,
+        "social": 10
+      },
+      "labels": {
+        "weather": "good",
+        "travel": "excellent",
+        "crowd": "low",
+        "events": "poor",
+        "water": "poor"
+      }
+    },
+    {
+      "id": "varese",
+      "name": "Lake Varese",
+      "name_it": "Lago di Varese",
+      "rank": 8,
+      "travel_min": 45,
+      "distance_km": 55,
+      "score": 49,
+      "scores": {
+        "weather": 55,
+        "travel": 87,
+        "crowd": 61,
+        "events": 10,
+        "water": 21,
+        "social": 20
+      },
+      "labels": {
+        "weather": "good",
+        "travel": "excellent",
+        "crowd": "low",
+        "events": "poor",
+        "water": "poor"
+      }
+    },
+    {
+      "id": "iseo",
+      "name": "Lake Iseo",
+      "name_it": "Lago d'Iseo",
+      "rank": 9,
+      "travel_min": 60,
+      "distance_km": 70,
+      "score": 47,
+      "scores": {
+        "weather": 55,
+        "travel": 75,
+        "crowd": 54,
+        "events": 18,
+        "water": 21,
+        "social": 28
+      },
+      "labels": {
+        "weather": "good",
+        "travel": "excellent",
+        "crowd": "low",
+        "events": "poor",
+        "water": "poor"
+      }
+    },
+    {
+      "id": "orta",
+      "name": "Lake Orta",
+      "name_it": "Lago d'Orta",
+      "rank": 10,
+      "travel_min": 65,
+      "distance_km": 75,
+      "score": 47,
+      "scores": {
+        "weather": 55,
+        "travel": 72,
+        "crowd": 59,
+        "events": 20,
+        "water": 21,
+        "social": 25
+      },
+      "labels": {
+        "weather": "good",
+        "travel": "good",
+        "crowd": "low",
+        "events": "poor",
+        "water": "poor"
+      }
+    },
+    {
+      "id": "lugano",
+      "name": "Lake Lugano",
+      "name_it": "Lago di Lugano",
+      "rank": 11,
+      "travel_min": 75,
+      "distance_km": 88,
+      "score": 47,
+      "scores": {
+        "weather": 55,
+        "travel": 63,
+        "crowd": 57,
+        "events": 25,
+        "water": 27,
+        "social": 28
+      },
+      "labels": {
+        "weather": "good",
+        "travel": "good",
+        "crowd": "low",
+        "events": "poor",
+        "water": "poor"
+      }
+    },
+    {
+      "id": "garda",
+      "name": "Lake Garda",
+      "name_it": "Lago di Garda",
+      "rank": 12,
+      "travel_min": 90,
+      "distance_km": 110,
+      "score": 44,
+      "scores": {
+        "weather": 51,
+        "travel": 53,
+        "crowd": 55,
+        "events": 25,
+        "water": 30,
+        "social": 35
+      },
+      "labels": {
+        "weather": "fair",
+        "travel": "fair",
+        "crowd": "low",
+        "events": "poor",
+        "water": "poor"
+      }
+    }
+  ]
+}
